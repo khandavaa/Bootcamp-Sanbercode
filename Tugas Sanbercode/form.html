@@ -12,27 +12,31 @@
 
 <body>
 <form action="welcome.html" method="post">
-    <label>Nama Lengkap</label> <br>
+    <label>First Name:</label> <br>
     <input type="text"> <br> <br>
-    <label>Usia</label> <br>
-    <input type="number"> <br> <br>
-    <label>Password</label> <br>
-    <input type="password"> <br> <br>
-    <label>Status</label> <br>
-    <input type="radio" name="status">Menikah <br>
-    <input type="radio" name="status">Belum Menikah <br> <br>
-    <label>Bahasa</label> <br>
-    <select name="Bahasa">
-    <option value="">Bahasa Indonesia </option>
-    <option value="">Bahasa Inggris </option>
-    <option value="">Bahasa Belanda </option>
+    <label>Last Name:</label> <br>
+    <input type="text"> <br> <br>
+
+    <label>Gender:</label> <br>
+    <input type="radio" name="status">Male<br>
+    <input type="radio" name="status">Female<br>
+    <input type="radio" name="status">Other<br> <br>
+
+    <label>Nationality:</label> <br>
+    <select name="Nationality">
+    <option value="">Indonesia </option>
+    <option value="">Japanese </option>
+    <option value="">Singaporean </option>
+    <option value="">Malaysian </option>
     </select> <br> <br> 
-    <label>Skill</label> <br>
-    <input type="checkbox" name="skill">Laravel <br>
-    <input type="checkbox" name="skill">VueJS <br>
-    <input type="checkbox" name="skill">NodeJS <br>
-    <label>Alamat</label> <br>
-    <textarea name="Alamat" cols="30" rows="10"></textarea> <br> <br>
+
+    <label>Language Spoken:</label> <br>
+    <input type="checkbox" name="Language Spoken">Bahasa Indonesia <br>
+    <input type="checkbox" name="Language Spoken">English <br>
+    <input type="checkbox" name="Language Spoken">Other <br>
+
+    <label>Bio</label> <br>
+    <textarea name="Bio" cols="30" rows="10"></textarea> <br> <br>
     <input type="submit" value="kirim"> 
 </form>
 </body>
